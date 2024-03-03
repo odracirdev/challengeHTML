@@ -1,0 +1,7 @@
+.color:first-of-type {
+  background-color: aquamarine;
+}
+
+.color:last-of-type {
+  background-color: blueviolet;
+}
