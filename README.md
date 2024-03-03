@@ -14,10 +14,11 @@ Este repo contiene la solución a una serie de [desafíos](https://lenguajehtml.
  - [Día 3](./03/index.html): Construye una página con un párrafo que tenga enlaces internos y externos (a otros sitios web).
  - [Día 4](./04/index.html): Valida el código HTML de tus ejemplos anteriores (y los siguientes a partir de ahora).
  - [Día 5](./05/index.html): Ponle un título y una descripción al documento, ideal para SEO.
+ - [Día 6](./06/index.html): Crea un grupo de secciones (acordeón) donde se despliegue sólo uno a la vez.
 
 ### Lista de desafíos pendientes
 
- - Día 6: Crea un grupo de secciones (acordeón) donde se despliegue sólo uno a la vez.
+
  - Día 7: Coloca una imagen en formato JPEG-XL. Si el navegador no la soporta, que use AVIF. Sino, que use JPG.
  - Día 8: Crear un párrafo de texto con palabras destacadas en diferentes colores.
  - Día 9: Crea un pergamino con una lista de objetos, donde se numere con números romanos (mayúsculas).
