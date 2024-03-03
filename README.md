@@ -17,11 +17,11 @@ Este repo contiene la solución a una serie de [desafíos](https://lenguajehtml.
  - [Día 6](./06/index.html): Crea un grupo de secciones (acordeón) donde se despliegue sólo uno a la vez.
  - [Día 7](./07/index.html): Coloca una imagen en formato JPEG-XL. Si el navegador no la soporta, que use AVIF. Sino, que use JPG.
  - [Día 8](./08/index.html): Crear un párrafo de texto con palabras destacadas en diferentes colores.
+ - [Día 9](./09/index.html): Crea un pergamino con una lista de objetos, donde se numere con números romanos (mayúsculas).
 
 
 ### Lista de desafíos pendientes
 
- - Día 9: Crea un pergamino con una lista de objetos, donde se numere con números romanos (mayúsculas).
  - Día 10: Inserta un video de Youtube en una página y estila con CSS para que se vea bien.
  - Día 11: Escribe un texto con super/subíndices (fórmulas químicas, por ejemplo).
  - Día 12: Crea un slider que permita seleccionar un número entre 1-50 y lo muestre en vivo al cambiar.

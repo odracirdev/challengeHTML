@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cinzel", serif;
+  background-color: #3c3c3c;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+  background-image: url(./images/fondo-papel-grunge-vintage_1048-10911.avif);
+  background-size: 300px;
+  margin: 28px auto;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #2c2c2c;
+  text-align: center;
+}
+
+ol {
+  padding-left: 8%;
+}
+
