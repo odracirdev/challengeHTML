@@ -1,11 +1,18 @@
-![HTML 30-day challenge](./assets/HTML-30-day-challenge.webp)
+![HTML 30-day challenge](./assets/img/HTML-30-day-challenge.webp)
 
 
 # HTML 30-day challenge by ManzDev
 
 Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://lenguajehtml.com/challenge/) creado por [ManzDev](https://manz.dev) con la finalidad de aprender y/o practicar con los lenguajes HTML, CSS y un poco de JavaScript.
 
-> Estos desafíos los resuelvo en vivo en mi [canal de twitch](https://twitch.tv/odracirdev), si quieres ver cómo lo hacemos te invito a seguirme. También puedes ver el calendario con todos los directos en tu hora local accediendo a mi [servidor de discord](https://discord.gg/3m9KdYAf3p).
+> Estos desafíos los resuelvo en vivo en mi canal de twitch, si quieres ver cómo lo hacemos te invito a seguirme. También puedes ver el calendario con todos los directos en tu hora local accediendo a mi servidor de discord.
+
+<div align="center">
+
+[![Discord](https://img.shields.io/badge/Discord-5865F2.svg?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.gg/AFrzAEYA85)
+[![Twitch](https://img.shields.io/badge/Twitch-9146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://twitch.tv/odracirdev)
+
+</div>
 
 ## Lista de desafíos
 

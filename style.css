@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #671189;
+  background: radial-gradient(at center bottom, #671189, #2A263B);
+  min-height: 100vh;
+}

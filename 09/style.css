@@ -21,7 +21,7 @@ body {
   align-content: center;
   justify-content: center;
   gap: 20px;
-  background-image: url(./images/fondo-papel-grunge-vintage_1048-10911.avif);
+  background-image: url(../assets/img/fondo-papel-grunge-vintage_1048-10911.avif);
   background-size: 300px;
   margin: 28px auto;
 }
