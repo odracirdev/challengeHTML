@@ -2,7 +2,7 @@
   font-family: 'EnterCommand';
   src:
     local("EnterCommand"),
-    url("/assets/fonts/entercommand.woff2") format("woff2");
+    url("./assets/fonts/entercommand.woff2") format("woff2");
 }
 
 * {
