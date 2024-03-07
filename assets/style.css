@@ -15,8 +15,7 @@ body {
   background: #671189;
   background: radial-gradient(at center bottom, #671189, #2A263B);
   min-height: 100dvh;
-  width: 960px;
-  margin: auto;
+  margin: 40px auto;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #f2f2f2;
   font-size: 1.2rem;
@@ -24,53 +23,43 @@ body {
 
 .header-container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 40px;
+  align-items: center;
   gap: 40px;
 }
 
-.header-logo {
-  width: 250px;
+.header-container img {
+  filter: drop-shadow(0 0 16px black);
 }
 
-.header-text {
+.social {
   display: flex;
-  flex-direction: column;
-  gap: 28px;
-  width: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-.header-text h1 {
+h1 {
   font-family: EnterCommand;
   font-size: 5rem;
   line-height: 3.5rem;
+  text-align: center;
   text-shadow: 0 0 16px black;
 }
 
-.header-text a {
-  color: #da562f;
-  text-decoration: none;
-}
-
-.header-text a:hover {
-  color: #ecdc58;
-  text-decoration: none;
-}
 
 .challenges-container {
-  width: 720px;
-  height: 600px;
-  margin: 40px auto;
+  margin: 40px 25%;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(auto, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 8px;
 }
 
 .challenge {
   border: #2A263B 4px solid;
   border-radius: 12px;
+  height: 120px;
   display: grid;
   place-content: center;
   place-items: center;
@@ -89,20 +78,20 @@ body {
   background-color: #e66a34;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 720px;
-  gap: 20px;
-  margin: 20px auto;
-  text-align: center;
+@media (max-width: 1003px) {
+  .challenges-container {
+    margin: 40px 5%;
+  }
 }
 
-.social {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 1004px) and (max-width: 1126px) {
+  .challenges-container {
+    margin: 40px 10%;
+  }
+}
+
+@media (min-width: 1127px) and (max-width: 12800px) {
+  .challenges-container {
+    margin: 40px 15%;
+  }
 }
