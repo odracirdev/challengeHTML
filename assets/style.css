@@ -95,3 +95,9 @@ h1 {
     margin: 40px 15%;
   }
 }
+
+@media (min-width: 2100px) {
+  body {
+    width: 1920px;
+  }
+}
