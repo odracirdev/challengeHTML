@@ -54,6 +54,13 @@ h1 {
   text-shadow: 0 0 16px black;
 }
 
+h2 {
+  font-family: EnterCommand;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
 
 .challenges-container {
   margin: 40px 5%;
@@ -70,6 +77,12 @@ h1 {
   place-content: center;
   place-items: center;
   font-family: EnterCommand;
+}
+
+.challenge p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 0.5rem;
 }
 
 .challenge a {
