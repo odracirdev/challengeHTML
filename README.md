@@ -5,7 +5,11 @@
 
 Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://lenguajehtml.com/challenge/) creado por [ManzDev](https://manz.dev) con la finalidad de aprender y/o practicar con los lenguajes HTML, CSS y un poco de JavaScript.
 
-> Estos desafíos los resuelvo en vivo en mi canal de twitch, si quieres ver cómo lo hacemos te invito a seguirme. También puedes ver el calendario con todos los directos en tu hora local accediendo a mi servidor de discord.
+> [!IMPORTANT]
+> Estos desafíos los resuelvo en vivo en mi canal de twitch, si quieres ver cómo lo hago te invito a seguirme. También puedes ver el calendario con todos los directos en tu hora local accediendo a mi servidor de discord.
+
+> [!NOTE]
+> Por ahora las soluciones solo tienen el código necesario para pasar cada una de las pruebas, mi idea es que cuando termine con los 30 desafíos poder hacer un refactor completo de todos y convertirlos en mini proyectos.
 
 <div align="center">
 
