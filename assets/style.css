@@ -21,6 +21,11 @@ body {
   font-size: 1.2rem;
 }
 
+main {
+  max-width: 960px;
+  margin: auto;
+}
+
 .header-container {
   display: flex;
   flex-direction: column;
@@ -31,6 +36,7 @@ body {
 
 .header-container img {
   filter: drop-shadow(0 0 16px black);
+  margin: 0 5%;
 }
 
 .social {
@@ -42,7 +48,7 @@ body {
 
 h1 {
   font-family: EnterCommand;
-  font-size: 5rem;
+  font-size: 4.5rem;
   line-height: 3.5rem;
   text-align: center;
   text-shadow: 0 0 16px black;
@@ -50,7 +56,7 @@ h1 {
 
 
 .challenges-container {
-  margin: 40px 25%;
+  margin: 40px 5%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 8px;
@@ -78,26 +84,8 @@ h1 {
   background-color: #e66a34;
 }
 
-@media (max-width: 1003px) {
-  .challenges-container {
-    margin: 40px 5%;
-  }
-}
-
-@media (min-width: 1004px) and (max-width: 1126px) {
-  .challenges-container {
-    margin: 40px 10%;
-  }
-}
-
-@media (min-width: 1127px) and (max-width: 12800px) {
-  .challenges-container {
-    margin: 40px 15%;
-  }
-}
-
-@media (min-width: 2100px) {
-  body {
-    width: 1920px;
-  }
+footer {
+  max-width: 720px;
+  text-align: center;
+  margin: auto;
 }
