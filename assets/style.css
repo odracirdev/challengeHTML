@@ -85,7 +85,8 @@ h1 {
 }
 
 footer {
-  max-width: 720px;
+  max-width: 760px;
   text-align: center;
   margin: auto;
+  padding: 0 5%;
 }
