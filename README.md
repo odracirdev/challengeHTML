@@ -29,7 +29,7 @@ Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://leng
  - ✅ **~~Día 7~~** - Coloca una imagen en formato JPEG-XL. Si el navegador no la soporta, que use AVIF. Sino, que use JPG. → [📄 Código](./07/) | [🔗 Web](https://odracirdev.github.io/challengeHTML/07/index.html)
  - ✅ **~~Día 8~~** - Crear un párrafo de texto con palabras destacadas en diferentes colores. → [📄 Código](./08/) | [🔗 Web](https://odracirdev.github.io/challengeHTML/08/index.html)
  - ✅ **~~Día 9~~** - Crea un pergamino con una lista de objetos, donde se numere con números romanos (mayúsculas). → [📄 Código](./09/) | [🔗 Web](https://odracirdev.github.io/challengeHTML/09/index.html)
- - ⏳ Día 10 - Inserta un video de Youtube en una página y estila con CSS para que se vea bien.
+ - ✅ **~~Día 10~~** - Inserta un video de Youtube en una página y estila con CSS para que se vea bien. → [📄 Código](./10/) | [🔗 Web](https://odracirdev.github.io/challengeHTML/10/index.html)
  - ⏳ Día 11 - Escribe un texto con super/subíndices (fórmulas químicas, por ejemplo).
  - ⏳ Día 12 - Crea un slider que permita seleccionar un número entre 1-50 y lo muestre en vivo al cambiar.
  - ⏳ Día 13 - Crea una barra medidora que muestre los tickets vendidos en un cine (64/100 tickets vendidos).
