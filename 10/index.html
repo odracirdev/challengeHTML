@@ -11,8 +11,15 @@
     <div class="container">
       <div class="video">
        <img src="../assets/img/laptop.webp" alt="laptop">
-        <iframe src="https://www.youtube.com/embed/ntBVs2n8IC0?si=vrOSM0dzxYaq1LUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ntBVs2n8IC0" frameborder="0" allowfullscreen></iframe>
       </div>
+      <div class="controls">
+        <button onclick="changeVideo('ntBVs2n8IC0')">Canal 1</button>
+        <button onclick="changeVideo('BW0ESWwMC_o')">Canal 2</button>
+        <button onclick="changeVideo('KxdlczdR2no')">Canal 3</button>
+        <button onclick="changeVideo('BgkdDTSV568')">Canal 4</button>
+        <button onclick="changeVideo('gxLr6M9uuEY')">Canal 5</button>
+    </div>
       <div class="info">
         <h1>Ruta de estudio frontend</h1>
         <p>En nuestra ruta de estudio estamos aprendiendo todo lo necesario para convertirnos en desarrolladores frontend. Para ello estamos haciendo cursos y leyendo documentación en internet, todo de manera gratuita.</p>
@@ -20,5 +27,6 @@
       </div>
     </div>
   </main>
+  <script src="./script.js"></script>
 </body>
 </html>

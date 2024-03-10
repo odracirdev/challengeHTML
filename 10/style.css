@@ -10,14 +10,15 @@ html {
 }
 
 body {
+  min-height: 100vh;
   background-image: linear-gradient(to bottom, #434343 0%, black 100%);
-  height: 100vh;
 }
 
 .container {
   display: flex;
+  flex-direction: column;
   max-width: 1024px;
-  margin: 4% auto;
+  margin: 2% auto;
   gap: 60px;
   align-items: center;
 }
@@ -26,7 +27,6 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  margin-left: 10%;
 }
 
 img{
@@ -45,7 +45,6 @@ iframe{
 
 .info {
   width: 100%;
-  margin-right: 10%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -53,12 +52,32 @@ iframe{
 
 h1 {
   font-size: 2rem;
+  text-align: center;
 }
 
 p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-wrap: pretty;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+  font-size: 1.2rem;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1180px) {
