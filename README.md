@@ -30,7 +30,7 @@ Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://leng
  - ✅ **~~Día 8~~** - Crear un párrafo de texto con palabras destacadas en diferentes colores. → [📄 Código](./08/) | [🔗 Web](https://odracirdev.github.io/challengeHTML/08/index.html)
  - ✅ **~~Día 9~~** - Crea un pergamino con una lista de objetos, donde se numere con números romanos (mayúsculas). → [📄 Código](./09/) | [🔗 Web](https://odracirdev.github.io/challengeHTML/09/index.html)
  - ✅ **~~Día 10~~** - Inserta un video de Youtube en una página y estila con CSS para que se vea bien. → [📄 Código](./10/) | [🔗 Web](https://odracirdev.github.io/challengeHTML/10/index.html)
- - ⏳ Día 11 - Escribe un texto con super/subíndices (fórmulas químicas, por ejemplo).
+ - ✅ **~~Día 11~~** - Escribe un texto con super/subíndices (fórmulas químicas, por ejemplo). → [📄 Código](./11/) | [🔗 Web](https://odracirdev.github.io/challengeHTML/11/index.html)
  - ⏳ Día 12 - Crea un slider que permita seleccionar un número entre 1-50 y lo muestre en vivo al cambiar.
  - ⏳ Día 13 - Crea una barra medidora que muestre los tickets vendidos en un cine (64/100 tickets vendidos).
  - ⏳ Día 14 - Muestra un bloque de fragmento de código CSS en una página (sin resaltado de colores).
