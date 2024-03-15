@@ -26,7 +26,7 @@ Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://leng
 |02| ✅ Crea una página con un titular, varios párrafos de texto y una imagen. | [📄](./02/) | [🔗](https://odracirdev.github.io/challengeHTML/02/index.html) |
 |03| ✅ Construye una página con un párrafo que tenga enlaces internos y externos (a otros sitios web). | [📄](./03/) | [🔗](https://odracirdev.github.io/challengeHTML/03/index.html) |
 |04| ✅ Valida el código HTML de tus ejemplos anteriores (y los siguientes a partir de ahora). | [📄](./04/) | [🔗](https://odracirdev.github.io/challengeHTML/04/index.html) |
-|05| ✅  Ponle un título y una descripción al documento, ideal para SEO. | [📄](./05/) | [🔗](https://odracirdev.github.io/challengeHTML/05/index.html) |
+|05| ✅ Ponle un título y una descripción al documento, ideal para SEO. | [📄](./05/) | [🔗](https://odracirdev.github.io/challengeHTML/05/index.html) |
 |06| ✅ Crea un grupo de secciones (acordeón) donde se despliegue sólo uno a la vez. | [📄](./06/) | [🔗](https://odracirdev.github.io/challengeHTML/06/index.html) |
 |07| ✅ Coloca una imagen en formato JPEG-XL. Si el navegador no la soporta, que use AVIF. Sino, que use JPG. | [📄](./07/) | [🔗](https://odracirdev.github.io/challengeHTML/07/index.html) |
 |08| ✅ Crear un párrafo de texto con palabras destacadas en diferentes colores. | [📄](./08/) | [🔗](https://odracirdev.github.io/challengeHTML/08/index.html) |
