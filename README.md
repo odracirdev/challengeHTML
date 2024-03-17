@@ -36,7 +36,7 @@ Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://leng
 |12| ✅ Crea un slider que permita seleccionar un número entre 1-50 y lo muestre en vivo al cambiar. | [📄](./12/) | [🔗](https://odracirdev.github.io/challengeHTML/12/index.html) |
 |13| ✅ Crea una barra medidora que muestre los tickets vendidos en un cine (64/100 tickets vendidos). | [📄](./13/) | [🔗](https://odracirdev.github.io/challengeHTML/13/index.html) |
 |14| ✅ Muestra un bloque de fragmento de código CSS en una página. Si quieres ir al máximo, añade una librería Javascript para añadirle resaltado de colores. | [📄](./14/) | [🔗](https://odracirdev.github.io/challengeHTML/14/index.html) |
-|15| Crea una página con un video MP4 (no de youtube), que muestre una imagen de portada antes de darle a reproducir. | ⏳ | ⏳ |
+|15| ✅ Crea una página con un video MP4 (no de youtube), que muestre una imagen de portada antes de darle a reproducir. | [📄](./15/) | [🔗](https://odracirdev.github.io/challengeHTML/15/index.html) |
 |16| Muestra un texto con el atajo de teclado CTRL+ALT+SUPR y dale estilo para que parezcan teclas. | ⏳ | ⏳ |
 |17| Crea una card de usuario: username como título, un avatar, edad, país, nacimiento y enlace a su web. | ⏳ | ⏳ |
 |18| Crea un pequeño artículo de prensa con una noticia inventada. Usa etiquetas HTML semánticas. | ⏳ | ⏳ |
