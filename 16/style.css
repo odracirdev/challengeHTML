@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: dimgray;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+kbd {
+  background-color: #dcdcdc;
+  color: #616161;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 8%;
+  box-shadow: black 1px 1px 4px;
+}
