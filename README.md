@@ -33,8 +33,8 @@ Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://leng
 |09| ✅ Crea un pergamino con una lista de objetos, donde se numere con números romanos (mayúsculas). | [📄](./09/) | [🔗](https://odracirdev.github.io/challengeHTML/09/index.html) |
 |10| ✅ Busca 5 videos de youtube. Inserta uno en la página. Haz que se pueda cambiar entre ellos como una TV. Dale estilo con CSS para que se vea más bonito. | [📄](./10/) | [🔗](https://odracirdev.github.io/challengeHTML/10/index.html) |
 |11| ✅ Escribe un texto con super/subíndices (fórmulas químicas, por ejemplo). | [📄](./11/) | [🔗](https://odracirdev.github.io/challengeHTML/11/index.html) |
-|12| Crea un slider que permita seleccionar un número entre 1-50 y lo muestre en vivo al cambiar. | ⏳ | ⏳ |
-|13| Crea una barra medidora que muestre los tickets vendidos en un cine (64/100 tickets vendidos). | ⏳ | ⏳ |
+|12| ✅ Crea un slider que permita seleccionar un número entre 1-50 y lo muestre en vivo al cambiar. | [📄](./12/) | [🔗](https://odracirdev.github.io/challengeHTML/12/index.html) |
+|13| ✅ Crea una barra medidora que muestre los tickets vendidos en un cine (64/100 tickets vendidos). | [📄](./13/) | [🔗](https://odracirdev.github.io/challengeHTML/13/index.html)
 |14| Muestra un bloque de fragmento de código CSS en una página. Si quieres ir al máximo, añade una librería Javascript para añadirle resaltado de colores. | ⏳ | ⏳ |
 |15| Crea una página con un video MP4 (no de youtube), que muestre una imagen de portada antes de darle a reproducir. | ⏳ | ⏳ |
 |16| Muestra un texto con el atajo de teclado CTRL+ALT+SUPR y dale estilo para que parezcan teclas. | ⏳ | ⏳ |
