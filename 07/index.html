@@ -3,13 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Día 7</title>
+  <title>HTML 30-day challenge - Día 7</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
 </head>
 <body>
-  <picture>
-    <source srcset="../assets/img/HTML-30-day-challenge.jxl" type="image/jxl">
-    <source srcset="../assets/img/HTML-30-day-challenge.avif" type="image/avif">
-    <img src="../assets/img/HTML-30-day-challenge.jpg" alt="HTML 30-day challenge">
-  </picture>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 7</h2>
+        <p>Coloca una imagen en formato JPEG-XL. Si el navegador no la soporta, que use AVIF. Sino, que use JPG.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+<pre>
+  <code class="language-html">
+  &lt;picture&gt;
+    &lt;source srcset="../assets/img/HTML-30-day-challenge.jxl" type="image/jxl"&gt;
+    &lt;source srcset="../assets/img/HTML-30-day-challenge.avif" type="image/avif"&gt;
+    &lt;img src="../assets/img/HTML-30-day-challenge.jpg" alt="HTML 30-day challenge"&gt;
+  &lt;/picture&gt;
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <picture>
+        <source srcset="../assets/img/HTML-30-day-challenge.jxl" type="image/jxl">
+        <source srcset="../assets/img/HTML-30-day-challenge.avif" type="image/avif">
+        <img src="../assets/img/HTML-30-day-challenge.jpg" alt="HTML 30-day challenge">
+      </picture>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
 </body>
 </html>

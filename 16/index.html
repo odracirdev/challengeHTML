@@ -1,16 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Día 16</title>
+  <title>HTML 30-day challenge - Día 16</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
 </head>
+
 <body>
-  <div class="container">
-    <kbd>Ctrl</kbd>
-    <kbd>Alt</kbd>
-    <kbd>Supr</kbd>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 16</h2>
+        <p>Muestra un texto con el atajo de teclado CTRL+ALT+SUPR y dale estilo para que parezcan teclas.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;div class="container"&gt;
+    &lt;kbd&gt;Ctrl&lt;/kbd&gt;
+    &lt;kbd&gt;Alt&lt;/kbd&gt;
+    &lt;kbd&gt;Supr&lt;/kbd&gt;
+  &lt;/div&gt;
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+    
+  kbd {
+    background-color: #dcdcdc;
+    color: #616161;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 8%;
+    box-shadow: black 1px 1px 4px;
+    cursor: pointer;
+  }
+    
+  kbd:hover {
+    background-color: #aeaeae;
+  }
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <div class="container">
+        <kbd>Ctrl</kbd>
+        <kbd>Alt</kbd>
+        <kbd>Supr</kbd>
+      </div>
+    </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
 </body>
+
 </html>

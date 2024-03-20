@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Día 12</title>
+  <title>HTML 30-day challenge - Día 12</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
 </head>
+
 <body>
-  <input type="range" name="slider" id="slider" value="1" min="1" max="50" step="1" onInput="this.nextElementSibling.value = this.value">
-  <output>1</output>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 12</h2>
+        <p>Crea un slider que permita seleccionar un número entre 1-50 y lo muestre en vivo al cambiar. Requiere algo de Javascript.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;input
+  type="range"
+  name="slider"
+  id="slider"
+  value="1"
+  min="1"
+  max="50"
+  step="1"
+  onInput="this.nextElementSibling.value = this.value"&gt;
+  &lt;output&gt1&lt;/output&gt;
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <input type="range" name="slider" id="slider" value="1" min="1" max="50" step="1" onInput="this.nextElementSibling.value = this.value">
+      <output>1</output>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
 </body>
+
 </html>

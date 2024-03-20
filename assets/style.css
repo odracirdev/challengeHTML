@@ -85,6 +85,11 @@ h2 {
   margin-top: 0.5rem;
 }
 
+.challenge span {
+  color: #f2f2f2;
+  font-size: 2rem;
+}
+
 .challenge a {
   text-decoration: none;
 }

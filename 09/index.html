@@ -1,28 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Día 9</title>
+  <title>HTML 30-day challenge - Día 9</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
 </head>
+
 <body>
-  <div class="container">
-    <h1>Inventos Romanos</h1>
-    <ol type="I">
-      <li>Carreteras</li>
-      <li>Periódicos</li>
-      <li>Calendario</li>
-      <li>Hormigón</li>
-      <li>Alcantarillado</li>
-      <li>Bomberos</li>
-      <li>Graffits</li>
-      <li>Maquillaje</li>
-      <li>Calefacción</li>
-      <li>Arcos</li>
-      <li>Spas</li>
-      <li>Departamentos</li>
-    </ol>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 9</h2>
+        <p>Crea un pergamino con una lista de objetos, donde se numere con números romanos (mayúsculas).</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;div class="container"&gt;
+    &lt;h1&gt;Inventos Romanos&lt;/h1&gt;
+    &lt;ol type="I"&gt;
+      &lt;li&gt;Carreteras&lt;/li&gt;
+      &lt;li&gt;Periódicos&lt;/li&gt;
+      &lt;li&gt;Calendario&lt;/li&gt;
+      &lt;li&gt;Hormigón&lt;/li&gt;
+      &lt;li&gt;Alcantarillado&lt;/li&gt;
+      &lt;li&gt;Bomberos&lt;/li&gt;
+      &lt;li&gt;Graffits&lt;/li&gt;
+      &lt;li&gt;Maquillaje&lt;/li&gt;
+      &lt;li&gt;Calefacción&lt;/li&gt;
+      &lt;li&gt;Arcos&lt;/li&gt;
+      &lt;li&gt;Spas&lt;/li&gt;
+      &lt;li&gt;Departamentos&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+  .container {
+    font-family: "Cinzel", serif;
+    width: 300px;
+    height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-image: url(../assets/img/fondo-papel-grunge-vintage_1048-10911.avif);
+    object-fit: cover;
+    margin: 28px auto;
+  }
+  
+  .container h1 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #2c2c2c;
+    text-align: center;
+  }
+  
+  .container ol {
+    padding-left: 8%;
+    color: #2c2c2c;
+  }
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <div class="container">
+        <h1>Inventos Romanos</h1>
+        <ol type="I">
+          <li>Carreteras</li>
+          <li>Periódicos</li>
+          <li>Calendario</li>
+          <li>Hormigón</li>
+          <li>Alcantarillado</li>
+          <li>Bomberos</li>
+          <li>Graffits</li>
+          <li>Maquillaje</li>
+          <li>Calefacción</li>
+          <li>Arcos</li>
+          <li>Spas</li>
+          <li>Departamentos</li>
+        </ol>
+      </div>
+    </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
 </body>
+
 </html>

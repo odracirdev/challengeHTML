@@ -1,32 +1,150 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Día 10</title>
+  <title>HTML 30-day challenge - Día 10</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
 </head>
+
 <body>
-  <main>
-    <div class="container">
-      <div class="video">
-       <img src="../assets/img/laptop.webp" alt="laptop">
-       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ntBVs2n8IC0" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div class="controls">
-        <button onclick="changeVideo('ntBVs2n8IC0')">Canal 1</button>
-        <button onclick="changeVideo('BW0ESWwMC_o')">Canal 2</button>
-        <button onclick="changeVideo('KxdlczdR2no')">Canal 3</button>
-        <button onclick="changeVideo('BgkdDTSV568')">Canal 4</button>
-        <button onclick="changeVideo('gxLr6M9uuEY')">Canal 5</button>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 10</h2>
+        <p>Busca 5 videos de youtube. Inserta uno en la página. Haz que se pueda cambiar entre ellos como una TV. Dale estilo con CSS para que se vea más bonito.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;main&gt;
+    &lt;div class="container"&gt;
+      &lt;div class="video"&gt;
+        &lt;img src="../assets/img/laptop.webp" alt="laptop"&gt;
+        &lt;iframe id="video" width="560" height="315"
+        src="https://www.youtube.com/embed/ntBVs2n8IC0"
+        frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+      &lt;/div&gt;
+      &lt;div class="controls"&gt;
+        &lt;button onclick="changeVideo('ntBVs2n8IC0')"&gt;Video 1&lt;/button&gt;
+        &lt;button onclick="changeVideo('BW0ESWwMC_o')"&gt;Video 2&lt;/button&gt;
+        &lt;button onclick="changeVideo('KxdlczdR2no')"&gt;Video 3&lt;/button&gt;
+        &lt;button onclick="changeVideo('BgkdDTSV568')"&gt;Video 4&lt;/button&gt;
+        &lt;button onclick="changeVideo('gxLr6M9uuEY')"&gt;Video 5&lt;/button&gt;
+    &lt;/div&gt;
+      &lt;div class="info"&gt;
+        &lt;h1&gt;Ruta de estudio frontend&lt;/h1&gt;
+        &lt;p&gt;En nuestra ruta de estudio estamos aprendiendo todo lo necesario
+        para convertirnos en desarrolladores frontend. Para ello estamos haciendo
+        cursos y leyendo documentación en internet, todo de manera gratuita.&lt;/p&gt;
+        &lt;p&gt;Todo nuestro progreso queda registrado en formato de video
+        y este a su vez es subido a mi canal personal para que cualquiera lo
+        pueda consultar si lo necesita.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/main&gt;
+  &lt;script src="./script.js"&gt;&lt;/script&gt;
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+    .container {
+      display: flex;
+      flex-direction: column;
+      max-width: 1024px;
+      margin: 2% auto;
+      gap: 2rem;
+      align-items: center;
+    }
+    
+    .video {
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+    
+    .video img{
+      position: relative;
+      width:100%;
+      height:auto;
+    }
+    
+    .video iframe{
+      position:absolute;
+      top: 13%;
+      width: 74%;
+      height:auto;
+      aspect-ratio:14/9;
+    }
+    
+    .info {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .controls {
+      margin-top: 20px;
+    }
+    
+    .controls button {
+      padding: 10px 20px;
+      margin-right: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2rem;
+    }
+    
+    .controls button:hover {
+      background-color: #0056b3;
+      font-size: 1.2rem;
+    }
+  </code>
+</pre>
+<h3>JS</h3>
+<pre>
+  <code class="language-js">
+    function changeVideo(videoId) {
+      var iframe = document.getElementById('video');
+      iframe.src = "https://www.youtube.com/embed/" + videoId;
+    }
+  </code>
+</pre>
+      </article>
     </div>
-      <div class="info">
-        <h1>Ruta de estudio frontend</h1>
-        <p>En nuestra ruta de estudio estamos aprendiendo todo lo necesario para convertirnos en desarrolladores frontend. Para ello estamos haciendo cursos y leyendo documentación en internet, todo de manera gratuita.</p>
-        <p>Todo nuestro progreso queda registrado en formato de video y este a su vez es subido a mi canal personal para que cualquiera lo pueda consultar si lo necesita.</p>
-      </div>
+    <div class="view">
+      <main>
+        <div class="container">
+          <div class="video">
+           <img src="../assets/img/laptop.webp" alt="laptop">
+           <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ntBVs2n8IC0" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="controls">
+            <button onclick="changeVideo('ntBVs2n8IC0')">Video 1</button>
+            <button onclick="changeVideo('BW0ESWwMC_o')">Video 2</button>
+            <button onclick="changeVideo('KxdlczdR2no')">Video 3</button>
+            <button onclick="changeVideo('BgkdDTSV568')">Video 4</button>
+            <button onclick="changeVideo('gxLr6M9uuEY')">Video 5</button>
+          </div>
+          <div class="info">
+            <h1>Ruta de estudio frontend</h1>
+            <p>En nuestra ruta de estudio estamos aprendiendo todo lo necesario para convertirnos en desarrolladores frontend. Para ello estamos haciendo cursos y leyendo documentación en internet, todo de manera gratuita.</p>
+            <p>Todo nuestro progreso queda registrado en formato de video y este a su vez es subido a mi canal personal para que cualquiera lo pueda consultar si lo necesita.</p>
+          </div>
+        </div>
+      </main>
     </div>
-  </main>
+  </div>
   <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
 </body>
+
 </html>

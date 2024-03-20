@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Día 15</title>
+  <title>HTML 30-day challenge - Día 15</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
 </head>
+
 <body>
-  <video src="../assets/video/waves-loop.mp4" poster="../assets/img/play.svg" width="640px" height="360px" loop controls></video>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 15</h2>
+        <p>Crea una página con un video MP4 (no de youtube), que muestre una imagen de portada antes de darle a reproducir.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;video
+  src="../assets/video/waves-loop.mp4"
+  poster="../assets/img/play.svg"
+  width="640"
+  height="360"
+  loop
+  controls&gt;&lt;/video&gt;
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <video src="../assets/video/waves-loop.mp4" poster="../assets/img/play.svg" width="640px" height="360px" loop controls></video>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
 </body>
+
 </html>

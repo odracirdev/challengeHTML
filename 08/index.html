@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Día 8</title>
+  <title>HTML 30-day challenge - Día 8</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
 </head>
+
 <body>
-  <p>Lorem, ipsum dolor sit amet consectetur <mark class="color">adipisicing elit.</mark> Ipsam aperiam, quod laboriosam beatae, cupiditate sint enim quam maxime <mark>officiis illo</mark>, harum repellendus suscipit. Tempore aut impedit <mark class="color">ipsam deserunt</mark> obcaecati fugit!</p>
-  <p>Lorem, ipsum dolor sit amet consectetur <mark class="color">adipisicing elit.</mark> Ipsam aperiam, quod laboriosam beatae, cupiditate sint enim quam maxime officiis illo, harum repellendus suscipit. Tempore aut impedit <mark class="color">ipsam deserunt</mark> obcaecati fugit!</p>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 8</h2>
+        <p>Crear un párrafo de texto con palabras destacadas en diferentes colores.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;p&gt;Lorem, ipsum dolor sit amet consectetur &lt;mark class="color"&gt;adipisicing
+  elit.&lt;/mark&gt; Ipsam aperiam, quod laboriosam beatae, cupiditate sint enim quam
+  maxime &lt;mark&gt;officiis illo&lt;/mark&gt;, harum repellendus suscipit. Tempore aut
+  impedit &lt;mark class="color"&gt;ipsam deserunt&lt;/mark&gt; obcaecati fugit!&lt;/p&gt;
+
+  &lt;p&gt;Lorem, ipsum dolor sit amet consectetur &lt;mark class="color"&gt;adipisicing
+  elit.&lt;/mark&gt; Ipsam aperiam, quod laboriosam beatae, cupiditate sint enim quam
+  maxime officiis illo, harum repellendus suscipit. Tempore aut impedit &lt;mark
+  class="color"&gt;ipsam deserunt&lt;/mark&gt; obcaecati fugit!&gt;
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+    .color:first-of-type {
+      background-color: aquamarine;
+    }
+    
+    .color:last-of-type {
+      background-color: blueviolet;
+    }
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <p>Lorem, ipsum dolor sit amet consectetur <mark class="color">adipisicing elit.</mark> Ipsam aperiam, quod
+        laboriosam beatae, cupiditate sint enim quam maxime <mark>officiis illo</mark>, harum repellendus suscipit.
+        Tempore aut impedit <mark class="color">ipsam deserunt</mark> obcaecati fugit!</p>
+      <p>Lorem, ipsum dolor sit amet consectetur <mark class="color">adipisicing elit.</mark> Ipsam aperiam, quod
+        laboriosam beatae, cupiditate sint enim quam maxime officiis illo, harum repellendus suscipit. Tempore aut
+        impedit <mark class="color">ipsam deserunt</mark> obcaecati fugit!</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
 </body>
+
 </html>

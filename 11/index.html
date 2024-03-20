@@ -1,43 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Día 11</title>
+  <title>HTML 30-day challenge - Día 11</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
 </head>
+
 <body>
-  <main>
-    <section>
-      <header><h1>Fórmulas químicas más comunes</h1></header>
-      <div class="chimestry">
-        <div class="item header"><h2>Compuesto</h2></div>
-        <div class="item header"><h2>Formula Química</h2></div>
-        <div class="item">Dióxido de carbono</div>
-        <div class="item">CO<sub>2</sub></div>
-        <div class="item">Agua Oxigenada</div>
-        <div class="item">H<sub>2</sub>O<sub>2</sub></div>
-        <div class="item">Amoniaco</div>
-        <div class="item">NH<sub>3</sub></div>
-        <div class="item">Butano</div>
-        <div class="item">C<sub>4</sub>H<sub>10</sub></div>
-      </div>
-    </section>
-    <section>
-      <header><h1>Fórmulas físicas más comunes</h1></header>
-      <div class="math">
-        <div class="item header"><h2>Nombre</h2></div>
-        <div class="item header"><h2>Fórmula</h2></div>
-        <div class="item">Teorema de Pitágoras</div>
-        <div class="item">a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></div>
-        <div class="item">Raíz cuadrada de menos uno</div>
-        <div class="item">i<sup>2</sup> = -1</div>
-        <div class="item">Relatividad</div>
-        <div class="item">E = mc<sup>2</sup></div>
-        <div class="item">Teoría del caos</div>
-        <div class="item">x<sub><em>t</em>+1</sub> = kx<sub><em>t</em></sub> (1 - x<sub><em>t</em></sub>)</div>
-      </div>
-    </section>
-  </main>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 11</h2>
+        <p>Escribe un texto con super/subíndices (fórmulas químicas, por ejemplo).</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;main&gt;
+    &lt;section&gt;
+      &lt;header&gt;&lt;h1&gt;Fórmulas químicas más comunes&lt;/h1&gt;&lt;/header&gt;
+      &lt;div class="chimestry"&gt;
+        &lt;div class="header"&gt;&lt;h2&gt;Compuesto&lt;/h2&gt;&lt;/div&gt;
+        &lt;div class="header"&gt;&lt;h2&gt;Formula Química&lt;/h2&gt;&lt;/div&gt;
+        &lt;div class="item"&gt;Dióxido de carbono&lt;/div&gt;
+        &lt;div class="item"&gt;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/div&gt;
+        &lt;div class="item"&gt;Agua Oxigenada&lt;/div&gt;
+        &lt;div class="item"&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;2&lt;/sub&gt;&lt;/div&gt;
+        &lt;div class="item"&gt;Amoniaco&lt;/div&gt;
+        &lt;div class="item"&gt;NH&lt;sub&gt;3&lt;/sub&gt;&lt;/div&gt;
+        &lt;div class="item"&gt;Butano&lt;/div&gt;
+        &lt;div class="item"&gt;C&lt;sub&gt;4&lt;/sub&gt;H&lt;sub&gt;10&lt;/sub&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;header&gt;&lt;h1&gt;Fórmulas físicas más comunes&lt;/h1&gt;&lt;/header&gt;
+      &lt;div class="math"&gt;
+        &lt;div class="header"&gt;&lt;h2&gt;Nombre&lt;/h2&gt;&lt;/div&gt;
+        &lt;div class="header"&gt;&lt;h2&gt;Fórmula&lt;/h2&gt;&lt;/div&gt;
+        &lt;div class="item"&gt;Teorema de Pitágoras&lt;/div&gt;
+        &lt;div class="item"&gt;a&lt;sup&gt;2&lt;/sup&gt; + b&lt;sup&gt;2&lt;/sup&gt; = c&lt;sup&gt;2&lt;/sup&gt;&lt;/div&gt;
+        &lt;div class="item"&gt;Raíz cuadrada de menos uno&lt;/div&gt;
+        &lt;div class="item"&gt;i&lt;sup&gt;2&lt;/sup&gt; = -1&lt;/div&gt;
+        &lt;div class="item"&gt;Relatividad&lt;/div&gt;
+        &lt;div class="item"&gt;E = mc&lt;sup&gt;2&lt;/sup&gt;&lt;/div&gt;
+        &lt;div class="item"&gt;Teoría del caos&lt;/div&gt;
+        &lt;div class="item"&gt;x&lt;sub&gt;&lt;em&gt;t&lt;/em&gt;+1&lt;/sub&gt; = kx&lt;sub&gt;
+        &lt;em&gt;t&lt;/em&gt;&lt;/sub&gt; (1 - x&lt;sub&gt;&lt;em&gt;t&lt;/em&gt;&lt;/sub&gt;)&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/main&gt;
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+    header {
+      margin: 2rem 0;
+    }
+    
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .chimestry, .math {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(5, 40px);
+      width: 80%;
+    }
+    
+    .item {
+      width: 100%;
+      height: 100%;
+      border: 1px solid white;
+      padding-left: 1rem;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  </code>
+</pre>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <main>
+        <section>
+          <header class="title-header"><h1>Fórmulas químicas más comunes</h1></header>
+          <div class="chimestry">
+            <div class="header"><h2>Compuesto</h2></div>
+            <div class="header"><h2>Formula Química</h2></div>
+            <div class="item">Dióxido de carbono</div>
+            <div class="item">CO<sub>2</sub></div>
+            <div class="item">Agua Oxigenada</div>
+            <div class="item">H<sub>2</sub>O<sub>2</sub></div>
+            <div class="item">Amoniaco</div>
+            <div class="item">NH<sub>3</sub></div>
+            <div class="item">Butano</div>
+            <div class="item">C<sub>4</sub>H<sub>10</sub></div>
+          </div>
+        </section>
+        <section>
+          <header class="title-header"><h1>Fórmulas físicas más comunes</h1></header>
+          <div class="math">
+            <div class="header"><h2>Nombre</h2></div>
+            <div class="header"><h2>Fórmula</h2></div>
+            <div class="item">Teorema de Pitágoras</div>
+            <div class="item">a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></div>
+            <div class="item">Raíz cuadrada de menos uno</div>
+            <div class="item">i<sup>2</sup> = -1</div>
+            <div class="item">Relatividad</div>
+            <div class="item">E = mc<sup>2</sup></div>
+            <div class="item">Teoría del caos</div>
+            <div class="item">x<sub><em>t</em>+1</sub> = kx<sub><em>t</em></sub> (1 - x<sub><em>t</em></sub>)</div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
 </body>
+
 </html>
+  
