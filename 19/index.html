@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 30-day challenge - Día 19</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 19</h2>
+        <p>Crea una tabla con información. Incluye una cabecera y un pie de tabla. La última columna será de un color diferente.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Planeta&lt;/th&gt;
+        &lt;th&gt;Símbolo&lt;/th&gt;
+        &lt;th&gt;Imagen&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Mercurio&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/simbols/Mercury_symbol.svg.png"
+        alt="Símbolo de Mercurio"&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/planets/50px-Mercury_in_color_-_Prockter07_centered.jpg"
+        alt="Foto de Mercurio"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Venus&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/simbols/Venus_symbol.svg.png"
+        alt="Símbolo de Venus"&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/planets/Venus-real_color.jpg"
+        alt="Foto de Venus"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Tierra&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/simbols/Earth_symbol.svg.png"
+        alt="Símbolo de la Tierra"&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/planets/Earth_Eastern_Hemisphere.jpg"
+        alt="Foto de la Tierra"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Marte&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/simbols/Mars_symbol.svg.png"
+        alt="Símbolo de Marte"&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/planets/Mars_Valles_Marineris.jpeg"
+        alt="Foto de Marte"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Júpiter&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/simbols/Jupiter_symbol.svg.png"
+        alt="Símbolo de Júpiter"&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/planets/Jupiter.jpg"
+        alt="Foto de Júpiter"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Saturno&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/simbols/Saturn_symbol.svg.png"
+        alt="Símbolo de Saturno"&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/planets/Saturn_from_Cassini_Orbiter_(2004-10-06).jpg"
+        alt="Foto de Saturno"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Urano&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/simbols/Uranus_monogram.svg.png"
+        alt="Símbolo de Urano"&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/planets/Uranus.jpg"
+        alt="Foto de Urano"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Neptuno&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/simbols/Neptune_symbol.svg.png"
+        alt="Símbolo de Neptuno"&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;img
+        src="../assets/img/planets/Neptune.jpg"
+        alt="Foto de Neptuno"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Footer 1&lt;/td&gt;
+        &lt;td&gt;Footer 2&lt;/td&gt;
+        &lt;td&gt;Footer 3&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tfoot&gt;
+  &lt;/table&gt;
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+    table th:last-child {
+      background-color: black;
+    }
+    
+    table td {
+      text-align: center;
+    }
+    
+    table td:last-child {
+      background-color: black;
+    }
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <table>
+        <thead>
+          <tr>
+            <th>Planeta</th>
+            <th>Símbolo</th>
+            <th>Imagen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mercurio</td>
+            <td><img src="../assets/img/simbols/Mercury_symbol.svg.png" alt="Símbolo de Mercurio"></td>
+            <td><img src="../assets/img/planets/50px-Mercury_in_color_-_Prockter07_centered.jpg" alt="Foto de Mercurio"></td>
+          </tr>
+          <tr>
+            <td>Venus</td>
+            <td><img src="../assets/img/simbols/Venus_symbol.svg.png" alt="Símbolo de Venus"></td>
+            <td><img src="../assets/img/planets/Venus-real_color.jpg" alt="Foto de Venus"></td>
+          </tr>
+          <tr>
+            <td>Tierra</td>
+            <td><img src="../assets/img/simbols/Earth_symbol.svg.png" alt="Símbolo de la Tierra"></td>
+            <td><img src="../assets/img/planets/Earth_Eastern_Hemisphere.jpg" alt="Foto de la Tierra"></td>
+          </tr>
+          <tr>
+            <td>Marte</td>
+            <td><img src="../assets/img/simbols/Mars_symbol.svg.png" alt="Símbolo de Marte"></td>
+            <td><img src="../assets/img/planets/Mars_Valles_Marineris.jpeg" alt="Foto de Marte"></td>
+          </tr>
+          <tr>
+            <td>Júpiter</td>
+            <td><img src="../assets/img/simbols/Jupiter_symbol.svg.png" alt="Símbolo de Júpiter"></td>
+            <td><img src="../assets/img/planets/Jupiter.jpg" alt="Foto de Júpiter"></td>
+          </tr>
+          <tr>
+            <td>Saturno</td>
+            <td><img src="../assets/img/simbols/Saturn_symbol.svg.png" alt="Símbolo de Saturno"></td>
+            <td><img src="../assets/img/planets/Saturn_from_Cassini_Orbiter_(2004-10-06).jpg" alt="Foto de Saturno"></td>
+          </tr>
+          <tr>
+            <td>Urano</td>
+            <td><img src="../assets/img/simbols/Uranus_monogram.svg.png" alt="Símbolo de Urano"></td>
+            <td><img src="../assets/img/planets/Uranus.jpg" alt="Foto de Urano"></td>
+          </tr>
+          <tr>
+            <td>Neptuno</td>
+            <td><img src="../assets/img/simbols/Neptune_symbol.svg.png" alt="Símbolo de Neptuno"></td>
+            <td><img src="../assets/img/planets/Neptune.jpg" alt="Foto de Neptuno"></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Footer 1</td>
+            <td>Footer 2</td>
+            <td>Footer 3</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>

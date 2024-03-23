@@ -40,7 +40,7 @@ Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://leng
 |16| ✅ Muestra un texto con el atajo de teclado CTRL+ALT+SUPR y dale estilo para que parezcan teclas. | [🔗](https://odracirdev.github.io/challengeHTML/16/index.html) |
 |17| ✅ Crea una card de usuario: username como título, un avatar, edad, país, nacimiento y enlace a su web. | [🔗](https://odracirdev.github.io/challengeHTML/17/index.html) |
 |18| ✅ Crea un pequeño artículo de prensa con una noticia inventada. Usa etiquetas HTML semánticas. | [🔗](https://odracirdev.github.io/challengeHTML/18/index.html) |
-|19| Crea una tabla con información. Incluye una cabecera y un pie de tabla. La última columna será de un color diferente. | ⏳ |
+|19| ✅ Crea una tabla con información. Incluye una cabecera y un pie de tabla. La última columna será de un color diferente. | [🔗](https://odracirdev.github.io/challengeHTML/19/index.html) |
 |20| Crea un formulario para dejar un comentario en una página: Usuario y comentario de texto. | ⏳ |
 |21| Crea una lista desplegable donde se pueda seleccionar entre 3 grupos de productos ficticios. | ⏳ |
 |22| En la lista anterior, permite al usuario introducir opciones personalizadas (no sólo las de la lista) y filtrar las opciones existentes. | ⏳ |
