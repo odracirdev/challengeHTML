@@ -43,6 +43,7 @@ h2, h3 {
   background-color: #2d2d2d;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 1rem;
 }
 
