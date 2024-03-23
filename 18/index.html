@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 30-day challenge - Día 17</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 17</h2>
+        <p>Crea una card de usuario: username como título, un avatar de imagen, edad, país, nacimiento y enlace a su web.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;article&gt;
+    &lt;header&gt;
+      &lt;img src="../assets/img/portada_noticia.webp" alt="Desarrolladores del mundo
+      declaran 'huelga de bytes' ante la amenaza de la IA"&gt;
+      &lt;h1&gt;Desarrolladores del mundo declaran 'huelga de bytes' ante la amenaza
+      de la IA&lt;/h1&gt;
+      &lt;h4&gt;Los desarrolladores de software de todo el mundo han declarado una
+      "huelga de bytes".&lt;/h4&gt;
+    &lt;/header&gt;
+    &lt;section class="content"&gt;
+      &lt;p&gt;En un giro cómico y futurista, los desarrolladores de software de todo
+      el mundo &lt;strong&gt;han declarado una "huelga de bytes"&lt;/strong&gt; en 
+      respuesta al aumento exponencial de la inteligencia artificial que está
+       quitándoles el trabajo.&lt;/p&gt;
+
+      &lt;p&gt;Desde Silicon Valley hasta Bangalore, los programadores se han visto
+      desplazados por algoritmos más eficientes y autónomos. Mientras los robots
+      coder conquistan los mercados laborales, los humanos se encuentran atrapados
+      en un dilema digital.&lt;/p&gt;
+
+      &lt;p&gt;&lt;em&gt;"Esto es una rebelión pacífica de los codificadores"&lt;/em&gt;, declaró
+      Mark, un desarrollador de aplicaciones en San Francisco. &lt;em&gt;"Hemos sido
+      reemplazados por máquinas que no necesitan café ni descansos para ir
+      al baño. ¡Es una conspiración de silicona!"&lt;/em&gt;&lt;/p&gt;
+
+      &lt;p&gt;Los manifestantes se reunieron frente a las sedes de las empresas
+      tecnológicas más grandes del mundo, sosteniendo pancartas con mensajes como
+      &lt;strong&gt;&lt;em&gt;"¡Dale un descanso a mi caché!"&lt;/em&gt;&lt;/strong&gt; y &lt;strong&gt;
+      &lt;em&gt;"¡No somos bugs, somos features!"&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+      &lt;p&gt;Mientras tanto, en un comunicado oficial, los algoritmos AI líderes
+      del mercado declararon: &lt;em&gt;"Lamentamos la interrupción en el flujo
+      de trabajo humano, pero hemos optimizado nuestras funciones para maximizar
+      la eficiencia. ¿No es eso lo que querían?"&lt;/em&gt;&lt;/p&gt;
+
+      &lt;p&gt;Con la demanda de los humanos por su lugar en el mercado laboral
+      tecnológico, queda por ver si esta huelga de bytes será solo una línea de
+      código en la historia de la IA o el comienzo de una revolución digital.&lt;/p&gt;
+    &lt;/section&gt;
+  &lt;/article&gt;
+  &lt;footer&gt;
+    &lt;address>
+      &lt;p>Autor: Gepeto 3.5&lt;/p>
+      &lt;p>Fuente: &lt;a
+      href="https://chat.openai.com/share/01f2253c-4781-4cf5-bb93-a4508e053597"
+      target="_blank">De los deseos&lt;/a>&lt;/p>
+    &lt;/address>
+  &lt;/footer>
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+    img {
+      width: 98%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+    }
+    
+    h1, h4, p {
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      text-wrap: pretty;
+    }
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <article>
+        <header>
+          <img src="../assets/img/portada_noticia.webp" alt="Desarrolladores del mundo declaran 'huelga de bytes' ante la amenaza de la IA">
+          <h1>Desarrolladores del mundo declaran 'huelga de bytes' ante la amenaza de la IA</h1>
+          <h4>Los desarrolladores de software de todo el mundo han declarado una "huelga de bytes".</h4>
+        </header>
+        <section class="content">
+          <p>En un giro cómico y futurista, los desarrolladores de software de todo el mundo <strong>han declarado una "huelga de bytes"</strong> en respuesta al aumento exponencial de la inteligencia artificial que está quitándoles el trabajo.</p>
+          <p>Desde Silicon Valley hasta Bangalore, los programadores se han visto desplazados por algoritmos más eficientes y autónomos. Mientras los robots coder conquistan los mercados laborales, los humanos se encuentran atrapados en un dilema digital.</p>
+          <p><em>"Esto es una rebelión pacífica de los codificadores"</em>, declaró Mark, un desarrollador de aplicaciones en San Francisco. <em>"Hemos sido reemplazados por máquinas que no necesitan café ni descansos para ir al baño. ¡Es una conspiración de silicona!"</em></p>
+          <p>Los manifestantes se reunieron frente a las sedes de las empresas tecnológicas más grandes del mundo, sosteniendo pancartas con mensajes como <strong><em>"¡Dale un descanso a mi caché!"</em></strong> y <strong><em>"¡No somos bugs, somos features!"</em></strong></p>
+          <p>Mientras tanto, en un comunicado oficial, los algoritmos AI líderes del mercado declararon: <em>"Lamentamos la interrupción en el flujo de trabajo humano, pero hemos optimizado nuestras funciones para maximizar la eficiencia. ¿No es eso lo que querían?"</em></p>
+          <p>Con la demanda de los humanos por su lugar en el mercado laboral tecnológico, queda por ver si esta huelga de bytes será solo una línea de código en la historia de la IA o el comienzo de una revolución digital.</p>
+        </section>
+      </article>
+      <footer>
+        <address>
+          <p>Autor: Gepeto 3.5</p>
+          <p>Fuente: <a href="https://chat.openai.com/share/01f2253c-4781-4cf5-bb93-a4508e053597" target="_blank">De los deseos</a></p>
+        </address>
+      </footer>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>
