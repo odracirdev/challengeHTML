@@ -51,4 +51,4 @@ Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://leng
 |27| ✅ Crea una serie de etiquetas que permitan mostrar como miniatura una imagen en redes sociales. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/27/index.html) |
 |28| ✅ Crea una ventana modal que bloquee la interación con otros botones. Requiere un poco de Javascript. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/28/index.html) |
 |29| ✅ Crea un sistema de pestañas (tabs) para mostrar información. Necesita algo de Javascript. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/29/index.html) |
-|30| Carga una librería Javascript de confetti y lánzalo cuando pulses en un botón. Requiere algo de Javascript. | ⏳ |
+|30| ✅ Carga una librería Javascript de confetti y lánzalo cuando pulses en un botón. Requiere algo de Javascript. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/29/index.html) |

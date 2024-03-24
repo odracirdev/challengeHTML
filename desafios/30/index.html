@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 30-day challenge - Día 30</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 30</h2>
+        <p>Carga una librería Javascript de confetti y lánzalo cuando pulses en un botón. Requiere algo de Javascript.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+     &lt;button id="confetti"&gt;¡Libera el confetti! &lt;/button&gt;
+     &lt;canvas id="custom_canvas"&gt; &lt;/canvas&gt;
+     &lt;script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"&gt;&lt;/script&gt;
+     &lt;script src="./script.js"&gt; &lt;/script&gt;
+  </code>
+</pre>
+<h3>JS</h3>
+        <pre>
+  <code class="language-js">
+    const button = document.getElementById('confetti')
+    const canvas = document.getElementById('custom_canvas')
+    
+    const jsConfetti = new JSConfetti({ canvas })
+    
+    setTimeout(() => {
+      jsConfetti.addConfetti()
+    }, 500)
+    
+    button.addEventListener('click', () => {
+      jsConfetti.addConfetti()
+    })
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <button id="confetti">¡Libera el confetti!</button>
+      <canvas id="custom_canvas"></canvas>
+      <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+      <script src="./script.js"></script>
+  </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>
