@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 30-day challenge - Día 25</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 25</h2>
+        <p>Crea una galería de fotos. Asegúrate que no se cargan si están fuera de la región visible del navegador.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+   &lt;button
+    popovertarget="mensaje"
+    popovertargetaction="toggle">Mostrar mensaje&lt;/button&gt;
+  &lt;div id="mensaje" popover&gt;
+    &lt;p&gt;Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    Ratione possimus, qui animi, harum, maiores error officia nam officiis
+    deleniti nesciunt ullam odio libero ducimus natus cupiditate
+    ea in culpa! Inventore?&lt;/p&gt;
+  &lt;/div&gt;
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+    button {
+      padding: 8px;
+      margin: 1rem 0;
+      border: none;
+      box-shadow: black 0 0 4px;
+      cursor: pointer;
+    }
+    
+    [popover] {
+      background: #222;
+      border: 0;
+      border-bottom: 5px solid gold;
+      color: white;
+      padding: 0.05rem 1.25rem;
+    }
+    
+    [popover]::backdrop {
+      background: #000a;
+      backdrop-filter: blur(2px);
+    }
+    
+    [popover]:popover-open {
+      color: gold;
+      width: 300px;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <button popovertarget="mensaje" popovertargetaction="toggle">Mostrar mensaje</button>
+  <div id="mensaje" popover>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione possimus, qui animi, harum, maiores error officia nam officiis deleniti nesciunt ullam odio libero ducimus natus cupiditate ea in culpa! Inventore?</p>
+  </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>
