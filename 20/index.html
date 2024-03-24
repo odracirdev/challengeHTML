@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 30-day challenge - Día 19</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 19</h2>
+        <p>Crea una tabla con información. Incluye una cabecera y un pie de tabla. La última columna será de un color diferente.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;form action="/enviar" method="post"&gt;
+    &lt;label for="usuario"&gt;
+      Usuario
+    &lt;/label&gt;
+    &lt;input
+    type="text"
+    name="usuario"
+    maxlength="25"
+    placeholder="Nombre de usuario"&gt;
+    &lt;label for="comentario"&gt;
+      Comentario
+    &lt;/label&gt;
+    &lt;textarea
+    name="comentario"
+    cols="40"
+    rows="6"
+    placeholder="Escribe aquí tu comentario."&gt;&lt;/textarea&gt;
+    &lt;input type="submit" value="Comentar"&gt;
+  &lt;/form&gt;
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+    form {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin: 0 auto;
+    }
+    
+    input {
+      border: none;
+      padding: 8px;
+      border-radius: 4px;
+      box-shadow: black 0 0  4px;
+    }
+    
+    textarea {
+      border: none;
+      padding: 8px;
+      border-radius: 4px;
+      box-shadow: black 0 0 4px;
+    }
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <form action="/enviar" method="post">
+        <label for="usuario">
+          Usuario
+        </label>
+        <input type="text" name="usuario" maxlength="25" placeholder="Nombre de usuario">
+        <label for="comentario">
+          Comentario
+        </label>
+        <textarea name="comentario" cols="40" rows="6" placeholder="Escribe aquí tu comentario."></textarea>
+        <input type="submit" value="Comentar">
+      </form>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>
