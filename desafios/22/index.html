@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 30-day challenge - Día 22</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 22</h2>
+        <p>En la lista anterior, permite al usuario introducir opciones personalizadas (no sólo las de la lista) y filtrar las opciones existentes.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+  &lt;p&gt;Desarrollo de software&lt;/p&gt;
+  &lt;input type="text" list="lenguajes"&gt;
+  &lt;datalist id="lenguajes"&gt;
+    &lt;option value="html"&gt;HTML&lt;/option&gt;
+    &lt;option value="css"&gt;CSS&lt;/option&gt;
+    &lt;option value="js"&gt;JavaScript&lt;/option&gt;
+    &lt;option value="php"&gt;PHP&lt;/option&gt;
+    &lt;option value="ruby"&gt;Ruby&lt;/option&gt;
+    &lt;option value="py"&gt;Python&lt;/option&gt;
+    &lt;option value="aws"&gt;AWS&lt;/option&gt;
+    &lt;option value="docker"&gt;Docker&lt;/option&gt;
+    &lt;option value="host"&gt;Hosting&lt;/option&gt;
+  &lt;/datalist&gt;
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+    input {
+      width: 50%;
+      padding: 8px;
+      margin: 1rem 0;
+      border: none;
+      box-shadow: black 0 0 4px;
+    }
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <p>Desarrollo de software</p>
+  <input type="text" list="lenguajes">
+  <datalist id="lenguajes">
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="js">JavaScript</option>
+    <option value="php">PHP</option>
+    <option value="ruby">Ruby</option>
+    <option value="py">Python</option>
+    <option value="aws">AWS</option>
+    <option value="docker">Docker</option>
+    <option value="host">Hosting</option>
+  </datalist>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>
