@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 30-day challenge - Día 29</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 29</h2>
+        <p>Crea un sistema de pestañas (tabs) para mostrar información. Necesita algo de Javascript.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+    &lt;div class="container"&gt;
+      &lt;button id="tab-1"&gt;Tab 1&lt;/button&gt;
+      &lt;button id="tab-2"&gt;Tab 2&lt;/button&gt;
+      &lt;button id="tab-3"&gt;Tab 3&lt;/button&gt;
+      &lt;section&gt;
+        &lt;h2&gt;Tab 1&lt;/h2&gt;
+        &lt;p&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit. At enim sunt consectetur? Suscipit sunt numquam necessitatibus optio similique magnam eius id adipisci dolor beatae, perspiciatis nulla veritatis! Possimus, vero ipsam?&lt;/p&gt;
+      &lt;/section&gt;
+      &lt;section hidden=""&gt;
+        &lt;h2&gt;Tab 2&lt;/h2&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo fuga labore pariatur suscipit mollitia ea doloribus repellat voluptas numquam eveniet doloremque commodi, ab vel aut sint dignissimos repellendus placeat!&lt;/p&gt;
+      &lt;/section&gt;
+      &lt;section hidden=""&gt;
+        &lt;h2&gt;Tab 3&lt;/h2&gt;
+        &lt;p&gt;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, adipisci! Suscipit, sequi cum modi eveniet accusantium veniam expedita laboriosam velit quo maxime explicabo minus nihil beatae est enim adipisci officia.&lt;/p&gt;
+      &lt;/section&gt;
+    &lt;/div&gt;
+    &lt;script src="./script.js"&gt;&lt;/script&gt;
+  </code>
+</pre>
+<h3>JS</h3>
+        <pre>
+  <code class="language-js">
+const [firstSection,
+secondSection,
+thirdSection] = document.querySelectorAll("section");
+const tab1 = document.querySelector("#tab-1");
+const tab2 = document.querySelector("#tab-2");
+const tab3 = document.querySelector("#tab-3");
+
+tab1.addEventListener("click", function() {
+  firstSection.removeAttribute("hidden")
+  secondSection.setAttribute("hidden", "")
+  thirdSection.setAttribute("hidden","")
+});
+
+tab2.addEventListener("click", function() {
+  firstSection.setAttribute("hidden", "")
+  secondSection.removeAttribute("hidden")
+  thirdSection.setAttribute("hidden","")
+});
+
+tab3.addEventListener("click", function() {
+  firstSection.setAttribute("hidden", "")
+  secondSection.setAttribute("hidden", "")
+  thirdSection.removeAttribute("hidden")
+});
+
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <div class="container">
+        <button id="tab-1">Tab 1</button>
+        <button id="tab-2">Tab 2</button>
+        <button id="tab-3">Tab 3</button>
+        <section>
+          <h2>Tab 1</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At enim sunt consectetur? Suscipit sunt numquam necessitatibus optio similique magnam eius id adipisci dolor beatae, perspiciatis nulla veritatis! Possimus, vero ipsam?</p>
+        </section>
+        <section hidden="">
+          <h2>Tab 2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo fuga labore pariatur suscipit mollitia ea doloribus repellat voluptas numquam eveniet doloremque commodi, ab vel aut sint dignissimos repellendus placeat!</p>
+        </section>
+        <section hidden="">
+          <h2>Tab 3</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, adipisci! Suscipit, sequi cum modi eveniet accusantium veniam expedita laboriosam velit quo maxime explicabo minus nihil beatae est enim adipisci officia.</p>
+        </section>
+      </div>
+      <script src="./script.js"></script>
+  </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>
