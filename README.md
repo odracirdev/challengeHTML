@@ -44,7 +44,7 @@ Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://leng
 |20| ✅ Crea un formulario para dejar un comentario en una página: Usuario y comentario de texto. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/20/index.html) |
 |21| ✅ Crea una lista desplegable donde se pueda seleccionar entre 3 grupos de productos ficticios. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/21/index.html) |
 |22| ✅ En la lista anterior, permite al usuario introducir opciones personalizadas (no sólo las de la lista) y filtrar las opciones existentes. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/22/index.html) |
-|23| Crea un formulario que te permita elegir un día entre el 15/nov y el 15/dic. | ⏳ |
+|23| ✅ Crea un formulario que te permita elegir un día entre el 15/nov y el 15/dic. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/23/index.html) |
 |24| Crea un formulario de registro que valide si el username escrito es válido (sólo letras y números) o no. | ⏳ |
 |25| Crea una galería de fotos. Asegúrate que no se cargan si están fuera de la región visible del navegador. | ⏳ |
 |26| Crea un mensaje emergente al pulsar un botón, que desaparezca al pulsar fuera del mensaje. | ⏳ |
