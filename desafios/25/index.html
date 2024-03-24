@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 30-day challenge - Día 25</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 25</h2>
+        <p>Crea una galería de fotos. Asegúrate que no se cargan si están fuera de la región visible del navegador.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+   &lt;img src="../../assets/img/avatar.webp" alt="Avatar odraciRdev"&gt;
+   &lt;img src="../../assets/img/logo.png" alt="Logo HTML 30-day challenge"&gt;
+   &lt;img src="../../assets/img/portada_noticia.webp" alt="Portada de la noticia"
+   loading="lazy"&gt;
+   &lt;img src="../../assets/img/social.webp" alt="Social graph" loading="lazy"&gt;
+  </code>
+</pre>
+<h3>CSS</h3>
+        <pre>
+  <code class="language-css">
+    img {
+      width: 98%;
+      margin-bottom: 1rem;
+    }
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <img src="../../assets/img/avatar.webp" alt="Avatar odraciRdev">
+      <img src="../../assets/img/logo.png" alt="Logo HTML 30-day challenge">
+      <img src="../../assets/img/portada_noticia.webp" alt="Portada de la noticia" loading="lazy">
+      <img src="../../assets/img/social.webp" alt="Social graph" loading="lazy">
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>

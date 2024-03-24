@@ -46,7 +46,7 @@ Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://leng
 |22| ✅ En la lista anterior, permite al usuario introducir opciones personalizadas (no sólo las de la lista) y filtrar las opciones existentes. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/22/index.html) |
 |23| ✅ Crea un formulario que te permita elegir un día entre el 15/nov y el 15/dic. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/23/index.html) |
 |24| ✅ Crea un formulario de registro que valide si el username escrito es válido (sólo letras y números) o no. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/24/index.html) |
-|25| Crea una galería de fotos. Asegúrate que no se cargan si están fuera de la región visible del navegador. | ⏳ |
+|25| ✅ Crea una galería de fotos. Asegúrate que no se cargan si están fuera de la región visible del navegador. | [🔗](https://odracirdev.github.io/challengeHTML/desafios/25/index.html) |
 |26| Crea un mensaje emergente al pulsar un botón, que desaparezca al pulsar fuera del mensaje. | ⏳ |
 |27| Crea una serie de etiquetas que permitan mostrar como miniatura una imagen en redes sociales. | ⏳ |
 |28| Crea una ventana modal que bloquee la interación con otros botones. Requiere un poco de Javascript. | ⏳ |
