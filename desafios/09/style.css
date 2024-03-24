@@ -54,7 +54,7 @@ h2, h3 {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  background-image: url(../assets/img/fondo-papel-grunge-vintage_1048-10911.avif);
+  background-image: url(../../assets/img/fondo-papel-grunge-vintage_1048-10911.avif);
   object-fit: cover;
   margin: 28px auto;
   position: sticky;
