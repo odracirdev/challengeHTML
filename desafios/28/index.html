@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 30-day challenge - Día 28</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="code">
+      <header>
+        <h2>HTML 30-day challenge - Día 28</h2>
+        <p>Crea una ventana modal que bloquee la interación con otros botones. Requiere un poco de Javascript.</p>
+      </header>
+      <article>
+        <h3>HTML</h3>
+        <pre>
+  <code class="language-html">
+    &lt;dialog id="alerta"&gt;
+      &lt;h2&gt;¡Censeguido!&lt;/h2&gt;
+      &lt;p&gt;Hemos superado el desafío #28&lt;/p&gt;
+      &lt;button onClick="this.parentElement.close()"&gt;Cerrar&lt;/button&gt;
+    &lt;/dialog&gt;
+    &lt;button id="mostrar"&gt;Muéstrame el diálogo&lt;/button&gt;
+    &lt;script src="./script.js"&gt;&lt;/script&gt;
+  </code>
+</pre>
+<h3>JS</h3>
+        <pre>
+  <code class="language-js">
+    const showButton = document.querySelector("#mostrar");
+    showButton.addEventListener("click", function () {
+      const alertDialog = document.querySelector("#alerta");
+      alertDialog.showModal();
+    });
+  </code>
+</pre>
+      </article>
+    </div>
+    <div class="view">
+      <dialog id="alerta">
+        <h2>¡Censeguido!</h2>
+        <p>Hemos superado el desafío #28</p>
+        <button onClick="this.parentElement.close()">Cerrar</button>
+      </dialog>
+      <button id="mostrar">Muéstrame el diálogo</button>
+      <script src="./script.js"></script>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>
