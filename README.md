@@ -42,7 +42,7 @@ Este repositorio contiene la solución al ["HTML 30-day Challenge"](https://leng
 |18| ✅ Crea un pequeño artículo de prensa con una noticia inventada. Usa etiquetas HTML semánticas. | [🔗](https://odracirdev.github.io/challengeHTML/18/index.html) |
 |19| ✅ Crea una tabla con información. Incluye una cabecera y un pie de tabla. La última columna será de un color diferente. | [🔗](https://odracirdev.github.io/challengeHTML/19/index.html) |
 |20| ✅ Crea un formulario para dejar un comentario en una página: Usuario y comentario de texto. | [🔗](https://odracirdev.github.io/challengeHTML/20/index.html) |
-|21| Crea una lista desplegable donde se pueda seleccionar entre 3 grupos de productos ficticios. | ⏳ |
+|21| ✅ Crea una lista desplegable donde se pueda seleccionar entre 3 grupos de productos ficticios. | [🔗](https://odracirdev.github.io/challengeHTML/21/index.html) |
 |22| En la lista anterior, permite al usuario introducir opciones personalizadas (no sólo las de la lista) y filtrar las opciones existentes. | ⏳ |
 |23| Crea un formulario que te permita elegir un día entre el 15/nov y el 15/dic. | ⏳ |
 |24| Crea un formulario de registro que valide si el username escrito es válido (sólo letras y números) o no. | ⏳ |
