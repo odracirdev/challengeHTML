@@ -52,3 +52,28 @@ img {
   width: 98%;
   margin-bottom: 1rem;
 }
+
+div:has(> .btn-prev) {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn-prev,
+.btn-next {
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 14px 18px;
+  text-decoration: none;
+  width: max-content;
+  display: inline-flex;
+  gap: 6px;
+  align-items: end;
+  line-height: 95%;
+  transition: background-color 300ms ease;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+  background-color: #383838;
+}
