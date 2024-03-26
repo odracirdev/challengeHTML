@@ -65,3 +65,17 @@ div:has(> .btn-prev) {
 .view img {
   width: 100%;
 }
+
+@media screen and (min-width: 300px) and (max-width: 960px){
+  .main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .code {
+    width: 100%;
+  }
+  .view {
+    width: 100%;
+  }
+}

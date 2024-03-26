@@ -93,3 +93,23 @@ div:has(> .btn-prev) {
 .btn-next:hover {
   background-color: #383838;
 }
+
+@media screen and (min-width: 300px) and (max-width: 960px){
+  .main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .code {
+    width: 100%;
+  }
+  .view {
+    width: 100%;
+  }
+  .container {
+    height: auto;
+    width: 90%;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+}

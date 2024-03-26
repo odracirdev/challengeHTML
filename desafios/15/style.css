@@ -10,10 +10,6 @@ html {
   font-size: 1.2rem;
 }
 
-body {
-  overflow: hidden;
-}
-
 h2, h3 {
   margin-bottom: 0.5rem;
 }
@@ -67,4 +63,23 @@ div:has(> .btn-prev) {
 .btn-prev:hover,
 .btn-next:hover {
   background-color: #383838;
+}
+
+@media screen and (min-width: 300px) and (max-width: 960px){
+  .main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .code {
+    width: 100%;
+  }
+  .view {
+    width: 100%;
+  }
+  .view video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+  }
 }

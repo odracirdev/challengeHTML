@@ -42,6 +42,10 @@ h2, h3 {
   padding: 1rem;
 }
 
+.view p {
+  margin-bottom: 1rem;
+}
+
 .color:first-of-type {
   background-color: aquamarine;
 }
@@ -73,4 +77,18 @@ div:has(> .btn-prev) {
 .btn-prev:hover,
 .btn-next:hover {
   background-color: #383838;
+}
+
+@media screen and (min-width: 300px) and (max-width: 960px){
+  .main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .code {
+    width: 100%;
+  }
+  .view {
+    width: 100%;
+  }
 }
